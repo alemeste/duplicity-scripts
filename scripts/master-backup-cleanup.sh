@@ -7,7 +7,7 @@
 # Licence MIT - https://goo.gl/yiCVlX
 
 # Charger la configuration par défaut si elle existe
-[ -e /etc/master-backup.conf ] && . /etc/master-backup.conf
+[ -e /root/master-backup.conf ] && . /root/master-backup.conf
 
 # Charger une configuration si fournie en argument du script pouvant écraser certaines
 # valeurs de la configuration par défaut
